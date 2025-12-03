@@ -42,6 +42,7 @@ logs_*/
 logs_rf/
 logs_weighted/
 modded_nanogpt_july_18/logs/
+tests_hidden/
 blog/
 *.log
 *.out
