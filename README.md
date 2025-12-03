@@ -10,6 +10,10 @@ This directory packages several standalone experiments used throughout the proje
 
 *Restarting SpecGD once the GD nuclear rank spikes can make SpecGD better than GD.*
 
+![Synthetic stable-rank spectra](gifs/relu_baseline_spectrum_short_toprow.gif)
+
+*Four-layer synthetic test from `blog/blog.md`: post-activation spectra stay spiky (low stable rank) while the gradient’s nuclear rank starts much larger and gradually aligns with the learned features.*
+
 ## Layout
 
 - `install.sh` – creates `.venv/` using [uv](https://github.com/astral-sh/uv) and installs `requirements.txt`.
