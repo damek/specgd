@@ -1,0 +1,53 @@
+# macOS cruft
+.DS_Store
+.DS_Store?
+Icon?
+Thumbs.db
+
+# python cache/artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.cache/
+.ipynb_checkpoints/
+
+# package/assets
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# virtual environments
+.env
+.env.*
+venv/
+env/
+.venv/
+
+# editor/project settings
+.vscode/
+.idea/
+
+# logs and run artifacts
+logs/
+logs_*/
+logs_rf/
+logs_weighted/
+modded_nanogpt_july_18/logs/
+blog/
+*.log
+*.out
+
+# misc
+*.swp
+*.swo
+
+tmp/
