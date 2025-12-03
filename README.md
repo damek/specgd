@@ -1,6 +1,6 @@
-# SpecGD Experiments
+# When do spectral gradient updates help in deep learning?
 
-This directory packages several standalone experiments used throughout the project. It also provides a shared UV/Python environment plus helper scripts so each experiment can be reproduced quickly.
+This repository hosts the official experiments and figures accompanying the paper *When do spectral gradient updates help in deep learning?* (see [`stable_rank.pdf`](stable_rank.pdf)). Everything below reproduces the results from the manuscript: standalone scripts, plotting utilities, and the UV/Python environment for Muon/SpecGD vs GD comparisons.
 
 ![Stable rank sweep](gifs/stable_rank_dim_200.gif)
 
